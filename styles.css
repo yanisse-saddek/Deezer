@@ -8,8 +8,8 @@ body {
 nav{
   display: flex;
   justify-content: space-between;
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:100px;
+  padding-right:100px;
   align-items: center;
   border-bottom: solid 5px #f9f9f9;
 }
@@ -23,14 +23,14 @@ nav{
   padding-left:15px;
   padding-right:15px;
   text-decoration: none;
-  margin:10px;
+  margin:5px;
 }
 nav img{
   height:30px;
 }
 .nav-right p{
   font-weight: bold;
-  margin:10px;
+  margin:15px;
 }
 .register{
   background:#2d96c8;
@@ -40,6 +40,9 @@ nav img{
   background: white;
   color:#2d96c8;
   border:2px solid #2d96c8;
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
 }
 .app{
   display: flex;
@@ -60,9 +63,8 @@ nav img{
   flex-direction: column;
 }
 .info{
-  width:40%;
-  padding-right:10%;
-  padding-left:10%;
+  width:400PX;
+  margin-left:250px;
 }
 .title{
   font-size:1.9rem;
@@ -107,7 +109,7 @@ nav img{
   display: flex; 
   justify-content: center;
   width:100%;
-  padding-top:2rem;
+  padding-top:3.5rem;
   padding-bottom:1rem;
 }
 .phone-section img{
@@ -121,6 +123,7 @@ nav img{
 .phone-right .title{
   font-weight: bold;
   margin-bottom:30px;
+  font-size: 1.9rem;
 }
 .grid-info{
   display:grid;
@@ -164,4 +167,134 @@ nav img{
 }
 .text-red .title{
   margin-bottom:20px;
+}
+
+.section-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top:5rem;
+  padding-bottom:3rem;
+}
+.section-card svg{
+  height:15px;
+  transform:rotate(180deg);
+  color:#2d96c8
+}
+.cards{
+  display: flex;
+  margin-top:5px;
+}
+.card{
+  padding:2rem;
+  height:400px;
+  width:200px;
+  box-shadow: 0px 4px 8PX 2px  #8e8e94; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card-middle{
+  background-color: #2d96c8;
+  margin-left:5px;
+  margin-right:5px;
+  color:white;  
+
+}
+
+.card-title{
+  font-weight: bold;
+  font-size:1.4rem
+}
+.card-price{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:20px;
+}
+.price{
+  font-size:1.8rem;
+  font-weight: bold;
+}
+.month{
+  font-size:0.8rem;
+}
+.card-detail{
+  margin-top:20px;
+  width:100%;
+}
+.card-detail p{
+  color:grey;
+  margin-top:3px;
+}
+.yes::before{
+  content:'✓ ';
+}
+.no::before{
+  content:'✕ ';
+}
+.card-btn{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:40px;
+}
+.btn-card{
+  background-color: #ef5466;
+  text-decoration: none;
+  color:white;
+  width:80%;
+  height:40px;
+  border-radius:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:10PX;
+  margin-top:10px; 
+}
+.text-blue{
+  color:#2d96c8;  
+  font-weight: bold;
+}
+.card-middle .card-detail p{
+  color:white;
+}
+.card-middle .card-btn p{
+  font-weight: bold;
+}
+.no{
+  opacity:0.5
+}
+.yes::before{
+  content:'✓ ';
+}
+.no::before{
+  content:'✕ ';
+}
+.mt{
+  margin-top:30px;
+}
+.grey{
+  background-color: grey;
+}
+.recommandation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:30px;
+}
+.offer-detail{
+  text-align: center;
+  padding-left:15%;
+  padding-right:15%;
+  font-size:0.8rem;
+  color:#8e8e94;
+  margin-top:70PX;
 }
