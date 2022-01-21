@@ -298,3 +298,83 @@ nav img{
   color:#8e8e94;
   margin-top:70PX;
 }
+.info-section{
+  display:flex;
+  background-color: #f9f9f9;
+  margin-bottom:10px
+}
+.info-card{
+  width:70%;
+  display:flex;
+  align-items: center;
+  height:100px;
+  justify-content: space-between;
+}
+.info-left{
+}
+.btn-bottom{
+    border-radius:20px;
+    padding:10px 50px;
+    height:10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border: 2px solid black;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.card-desc{
+  font-size:1.1rem;
+  margin-top:10px;
+}
+.more{
+  text-decoration: none;
+}
+.red{
+  color:#ef5466;
+}
+footer{
+  background-color: black;
+  padding:3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-icon img{
+  width:150px;
+  height:50px;
+}
+.text-gray{
+  color:gray;
+  font-size: 1rem;
+  margin-bottom:25px;
+}
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin-top:50px;
+}
+.footer-link-detail{
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-detail a{
+  color:white;
+  margin-top:20px;
+  text-decoration: none;
+}
+.bottom-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px;
+  width:100%;
+  align-items: center;
+  color:white
+}
+.svg-footer svg{
+  height:50px;
+}
